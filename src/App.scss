@@ -1,0 +1,95 @@
+body{
+  background-color: #E3FFE3;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+
+  h1{
+    color: #4b4d4b;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 20px 0;
+    width: 90%;
+
+
+    .country-holder{
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      width: 100%;
+
+      .country{
+        text-align: left;
+        background-color: #CCFFCC;
+        color: #7B9A7B;
+        width: 100%;
+        padding-left: 10px;
+      }
+    }
+
+  }
+
+  .btn-holder{
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+
+    div{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+
+      button{
+        margin: 5px;
+        padding: 10px 20px;
+        width: 150px;
+        background-color: #7B9A7B;
+        color: #E3FFE3;
+        border-radius: 10%;
+      }
+    }
+
+  }
+
+  .pagenrholder{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0px;
+    padding: 5px 50px;
+    background-color: #CCFFCC;
+
+    .nr{
+      background-color: transparent;
+      border: none;
+      color: #4b4d4b;
+      cursor: pointer;
+    }
+
+    .cnr{
+      background-color: #4b4d4b;
+      color: #CCFFCC;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+
+
+}
+
+
